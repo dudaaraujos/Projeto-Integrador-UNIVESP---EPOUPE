@@ -1,6 +1,6 @@
 ## Projeto-Integrador-UNIVESP---EPOUPE
-Hello World! :)
-We are from Brazil and students UNIVESP
+Hello World! :)<br />
+We are from Brazil and students UNIVESP<br />
 We are....
 # Adilson Alves Navajas Junior
 # Alessandro de Oliveira Navajas
@@ -10,6 +10,6 @@ We are....
 # Isamara Dayane Roza
 # Patrícia Aparecida Pereira Nogueira
 # Renata Aparecida de Brito Leal
-Here, you can see a Project called **E-POUPE**
-Web application for comparing prices in supermarkets in the city of **Juquitiba - SP - Brazil**
+Here, you can see a Project called **E-POUPE**<br />
+Web application for comparing prices in supermarkets in the city of **Juquitiba - SP - Brazil**<br />
 See **branches/tags** EPOUPE
