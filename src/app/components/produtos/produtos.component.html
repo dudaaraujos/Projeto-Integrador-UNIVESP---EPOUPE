@@ -1,0 +1,57 @@
+<div class="my-header"></div>
+<form [formGroup]="produtoForm" (ngSubmit)="submitDetails()">
+    <p-card header="Cadastro de Produtos" [style]="{width:'360px'}">
+        <div class="field">
+            <label for="adm">Administrador</label>
+            <input #inputComercio type="text" pInputText formControlName="comercio" class="w-full" name="comercio" id="comercio" *ngFor="let com of coms" ngModel={{com.comercio}} readonly>
+        </div>
+        <div class="field">
+            <label for="nomeProduto">Nome do Produto</label>
+            <input type="text" pInputText formControlName="nomeProduto" class="w-full" name="nomeProduto" placeholder="Digite o nome do produto">
+        <small *ngIf="nomeProduto.invalid && (nomeProduto.dirty || nomeProduto.touched)" class="block p-error">
+            <div *ngIf="nomeProduto.errors?.['required']">Digite o nome do produto!</div>
+            <div *ngIf="nomeProduto.errors?.['pattern']">Digite novamente, algo não deu certo!</div>
+        </small>
+        </div>
+        <div class="field">
+            <label for="classeProduto">Classe</label>
+            <select pInputText class="w-full" formControlName="classeProduto" name="classeProduto">
+              <option selected value="Bebidas">Bebidas</option>
+              <option value="Cosméticos">Cosméticos</option>
+              <option value="Hortifruti">Hortifruti</option>
+              <option value="Limpeza">Limpeza</option>
+              <option value="Saúde">Saúde</option>
+              <option value="Perecíveis">Perecíveis</option>
+            </select>
+            <small *ngIf="classeProduto.invalid && (classeProduto.dirty || classeProduto.touched)" class="block p-error">
+            <div *ngIf="classeProduto.errors?.['required']">Escolha uma classe!</div>
+        </small>
+        </div>
+        <div class="field">
+            <label for="unidade">Unidade</label>
+            <input type="text" pInputText formControlName="unidade" class="w-full" name="unidade" placeholder="Digite a unidade">
+        <small *ngIf="unidade.invalid && (unidade.dirty || unidade.touched)" class="block p-error">
+            <div *ngIf="unidade.errors?.['required']">Digite a unidade!</div>
+        </small>
+        </div>
+        <div class="field">
+            <label for="valor">Valor</label>
+            <input type="number" pInputText formControlName="valor" class="w-full" name="valor" placeholder="Digite o valor unitário">
+        <small *ngIf="valor.invalid && (valor.dirty || valor.touched)" class="block p-error">
+            <div *ngIf="valor.errors?.['required']">Digite o valor!</div>
+        </small>
+        </div>
+        <div class="field">
+            <label for="imgPatch">Imagem</label>
+            <input type="text" pInputText formControlName="imgPatch" class="w-full" name="imgPatch" id="imgPatch" placeholder="Escolha a imagem" readonly>
+            <small *ngIf="imgPatch.invalid && (imgPatch.dirty || imgPatch.touched)" class="block p-error">
+                <div *ngIf="imgPatch.errors?.['required']">Escolha uma imagem</div>
+            </small>
+        </div>
+        <p-fileUpload chooseLabel="Escolher" uploadLabel="Enviar" [showCancelButton]="false" url="https://www.primefaces.org/cdn/api/upload.php" (onUpload)="onUpload($event)" [multiple]="false" accept="image/*" [maxFileSize]="1000000">
+        </p-fileUpload>
+        <p-button label="Gravar" severity="warning" styleClass="w-full" type="submit"></p-button>
+        <p></p>
+        <p-button label="Sair" (onClick)="logOut()"></p-button>
+    </p-card>
+</form>

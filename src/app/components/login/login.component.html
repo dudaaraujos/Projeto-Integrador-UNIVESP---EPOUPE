@@ -1,0 +1,24 @@
+<div class="my-header"></div>
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+    <p-card header="Acesso Restrito" [style]="{width:'360px'}">
+        <div class="field">
+            <label for="email">E-mail</label>
+            <input type="text" pInputText formControlName="email" class="w-full" name="email" placeholder="Digite seu E-mail">
+
+        <small *ngIf="email.invalid && (email.dirty || email.touched)" class="block p-error">
+            <div *ngIf="email.errors?.['required']">Digite o E-mail do Cadastro!</div>
+            <div *ngIf="email.errors?.['email']">O E-mail deve ser valido!</div>
+        </small>
+        </div>        
+        <div class="field">
+            <label for="password">Senha</label>
+            <input type="password" pInputText formControlName="password" class="w-full" name="password" placeholder="Digite a senha">
+        <small *ngIf="password.invalid && (password.dirty || password.touched)" class="block p-error">
+            <div *ngIf="password.errors?.['required']">Digite a Senha!</div>
+        </small>
+        </div>        
+        <p-button label="Logar" severity="warning" styleClass="w-full" [disabled]="loginForm.invalid" type="submit"></p-button>
+        <div class="mt-2"><a routerLink="/register">Cadastre-se!</a></div>
+        <div class="mt-2"><a routerLink="/home">Home!</a></div>
+    </p-card>
+</form>

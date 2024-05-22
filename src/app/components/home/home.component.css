@@ -1,0 +1,11 @@
+.my-container {
+	background-image:url("/assets/img/epoupe.jpg");
+    background-size: 50vh;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50vh;
+}
+
+.text {
+    text-align: center;
+}
