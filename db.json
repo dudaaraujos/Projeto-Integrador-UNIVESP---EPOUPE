@@ -1,0 +1,585 @@
+{
+  "users": [
+    {
+      "id": "416f",
+      "fullName": "Thiago M. O.",
+      "comercio": "3 Irmãos",
+      "email": "3irmaos@3irmaos.com",
+      "password": "1234"
+    },
+    {
+      "id": "6405",
+      "fullName": "Roberto T.",
+      "comercio": "Frigoyama",
+      "email": "frigoyama@frigoyama.com",
+      "password": "1234"
+    },
+    {
+      "id": "5a9c",
+      "fullName": "Jaime",
+      "comercio": "Princesa",
+      "email": "princesa@princesa.com",
+      "password": "1234"
+    }
+  ],
+  "lista": [
+    {
+      "id": "aa63",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Arroz Solito",
+      "classeProduto": "Perecíveis",
+      "unidade": "5 kg",
+      "valor": 26.99,
+      "imgPatch": "http://localhost/img/arroz_solito_5kg.jpg"
+    },
+    {
+      "id": "0bf0",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Macarrão Espaguete Dona Benta",
+      "classeProduto": "Perecíveis",
+      "unidade": "500 g",
+      "valor": 4.15,
+      "imgPatch": "http://localhost/img/maca_d_benta.jpg"
+    },
+    {
+      "id": "aad9",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Peito Bovino",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 38,
+      "imgPatch": "http://localhost/img/peito_bovino.jpg"
+    },
+    {
+      "id": "991a",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Costela",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 29.99,
+      "imgPatch": "http://localhost/img/costela.jpg"
+    },
+    {
+      "id": "6d5f",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Picanha",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 79,
+      "imgPatch": "http://localhost/img/picanha.jpg"
+    },
+    {
+      "id": "5fb1",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Farinha de Trigo Rosa Branca",
+      "classeProduto": "Perecíveis",
+      "unidade": "1 kg",
+      "valor": 6.9,
+      "imgPatch": "http://localhost/img/far_trigo_rosa_branca.jpg"
+    },
+    {
+      "id": "deb0",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Café Pilão",
+      "classeProduto": "Perecíveis",
+      "unidade": "250 g",
+      "valor": 9.85,
+      "imgPatch": "http://localhost/img/cafe_pilao_250.jpg"
+    },
+    {
+      "id": "8010",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Batata Frita Congelada Bembrasil",
+      "classeProduto": "Perecíveis",
+      "unidade": "2 kg",
+      "valor": 33.99,
+      "imgPatch": "http://localhost/img/b_frita_bem_brasil.jpg"
+    },
+    {
+      "id": "327a",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Almôndegas Aurora",
+      "classeProduto": "Perecíveis",
+      "unidade": "500 g",
+      "valor": 13.49,
+      "imgPatch": "http://localhost/img/alm_aurora_500.jpg"
+    },
+    {
+      "id": "eaf8",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Coxinha da Asa",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 15.99,
+      "imgPatch": "http://localhost/img/cox_asa.jpg"
+    },
+    {
+      "id": "1ccf",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Coxa / Sobrecoxa",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 10.99,
+      "imgPatch": "http://localhost/img/cx_sobre.jpg"
+    },
+    {
+      "id": "4bd1",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Peito de Frango",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 22.75,
+      "imgPatch": "http://localhost/img/peito_f.jpg"
+    },
+    {
+      "id": "4078",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Lasanha Seara",
+      "classeProduto": "Perecíveis",
+      "unidade": "350 g",
+      "valor": 10.99,
+      "imgPatch": "http://localhost/img/lasanha.jpg"
+    },
+    {
+      "id": "b64f",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Salsicha Aurora",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 12.99,
+      "imgPatch": "http://localhost/img/salsicha.jpg"
+    },
+    {
+      "id": "b6af",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Presunto Aurora",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 28.99,
+      "imgPatch": "http://localhost/img/presunto.jpg"
+    },
+    {
+      "id": "1546",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Manteiga President",
+      "classeProduto": "Perecíveis",
+      "unidade": "200 g",
+      "valor": 18.55,
+      "imgPatch": "http://localhost/img/manteiga_pres.jpg"
+    },
+    {
+      "id": "d865",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Mortadela Marba",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 17.99,
+      "imgPatch": "http://localhost/img/mort_marba.jpg"
+    },
+    {
+      "id": "dcb0",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Absorvente Intimus c/abas",
+      "classeProduto": "Saúde",
+      "unidade": "8 uni",
+      "valor": 5.75,
+      "imgPatch": "http://localhost/img/absorvente_intimus.jpg"
+    },
+    {
+      "id": "e579",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Papel higiênico Camélia",
+      "classeProduto": "Limpeza",
+      "unidade": "4 uni",
+      "valor": 5.7,
+      "imgPatch": "http://localhost/img/papel_h_camelia.jpg"
+    },
+    {
+      "id": "2d02",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Sabonete Lux",
+      "classeProduto": "Saúde",
+      "unidade": "85 g",
+      "valor": 3.2,
+      "imgPatch": "http://localhost/img/sab_lux.jpg"
+    },
+    {
+      "id": "51c6",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Água Sanitária Suprema",
+      "classeProduto": "Limpeza",
+      "unidade": "1 litro",
+      "valor": 3.25,
+      "imgPatch": "http://localhost/img/agua_san_suprema.jpg"
+    },
+    {
+      "id": "b532",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Sabão em pó Tixan",
+      "classeProduto": "Limpeza",
+      "unidade": "800 g",
+      "valor": 11.99,
+      "imgPatch": "http://localhost/img/sab_po_tixan.jpg"
+    },
+    {
+      "id": "81ff",
+      "comercio": "3 Irmãos",
+      "nomeProduto": "Amaciante Ypê",
+      "classeProduto": "Limpeza",
+      "unidade": "2 litros",
+      "valor": 12.49,
+      "imgPatch": "http://localhost/img/ama_ype.jpg"
+    },
+    {
+      "id": "ce76",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Arroz Solito",
+      "classeProduto": "Perecíveis",
+      "unidade": "5 kg",
+      "valor": 31.99,
+      "imgPatch": "http://localhost/img/arroz_solito_5kg.jpg"
+    },
+    {
+      "id": "0292",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Feijão Kicaldo",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 9.49,
+      "imgPatch": "http://localhost/img/feijao-kicaldo.jpg"
+    },
+    {
+      "id": "d769",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Macarrão Espaguete Dona Benta",
+      "classeProduto": "Perecíveis",
+      "unidade": "500 g",
+      "valor": 3.69,
+      "imgPatch": "http://localhost/img/maca_d_benta.jpg"
+    },
+    {
+      "id": "0717",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Costela",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 23.99,
+      "imgPatch": "http://localhost/img/costela.jpg"
+    },
+    {
+      "id": "8c51",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Picanha",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 70.99,
+      "imgPatch": "http://localhost/img/picanha.jpg"
+    },
+    {
+      "id": "bb5a",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Farinha de trigo Rosa Branca",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 5.29,
+      "imgPatch": "http://localhost/img/far_trigo_rosa_branca.jpg"
+    },
+    {
+      "id": "6f6a",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Batata frita Congelada Bembrasil",
+      "classeProduto": "Perecíveis",
+      "unidade": "2 kg",
+      "valor": 32.99,
+      "imgPatch": "http://localhost/img/b_frita_bem_brasil.jpg"
+    },
+    {
+      "id": "ceda",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Coxinha da asa",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 15.99,
+      "imgPatch": "http://localhost/img/cox_asa.jpg"
+    },
+    {
+      "id": "899e",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Coxa / Sobre-coxa",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 10.59,
+      "imgPatch": "http://localhost/img/cx_sobre.jpg"
+    },
+    {
+      "id": "31ec",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Peito",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 14.99,
+      "imgPatch": "http://localhost/img/peito_f.jpg"
+    },
+    {
+      "id": "01fc",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Lasanha Aurora",
+      "classeProduto": "Perecíveis",
+      "unidade": "600 g",
+      "valor": 15.99,
+      "imgPatch": "http://localhost/img/LASANHA-AURORA.jpg"
+    },
+    {
+      "id": "aa50",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Salsicha Sadia",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 16.99,
+      "imgPatch": "http://localhost/img/salsicha sadia.png"
+    },
+    {
+      "id": "29c2",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Presunto Seara",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 37.9,
+      "imgPatch": "http://localhost/img/Presunto Seara.png"
+    },
+    {
+      "id": "6771",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Mortadela Marba",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 18.9,
+      "imgPatch": "http://localhost/img/mort_marba.jpg"
+    },
+    {
+      "id": "731d",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Absorvente Íntimus c/ abas",
+      "classeProduto": "Saúde",
+      "unidade": "8 uni",
+      "valor": 5.99,
+      "imgPatch": "http://localhost/img/absorvente_intimus.jpg"
+    },
+    {
+      "id": "e2da",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Papel Higiênico Camélia",
+      "classeProduto": "Saúde",
+      "unidade": "c/ 4",
+      "valor": 5.99,
+      "imgPatch": "http://localhost/img/papel_h_camelia.jpg"
+    },
+    {
+      "id": "f75c",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Sabonete Lux",
+      "classeProduto": "Saúde",
+      "unidade": "85 g",
+      "valor": 2.99,
+      "imgPatch": "http://localhost/img/sab_lux.jpg"
+    },
+    {
+      "id": "5253",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Água Sanitária Sanol",
+      "classeProduto": "Limpeza",
+      "unidade": "2 litros",
+      "valor": 4.99,
+      "imgPatch": "http://localhost/img/Agua-sanit-sanol-2l.png"
+    },
+    {
+      "id": "e75c",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Sabão em pó Tixan",
+      "classeProduto": "Limpeza",
+      "unidade": "800 g",
+      "valor": 10.99,
+      "imgPatch": "http://localhost/img/sab_po_tixan.jpg"
+    },
+    {
+      "id": "12bc",
+      "comercio": "Frigoyama",
+      "nomeProduto": "Amaciante Ype",
+      "classeProduto": "Limpeza",
+      "unidade": "2 litros",
+      "valor": 9.99,
+      "imgPatch": "http://localhost/img/ama_ype.jpg"
+    },
+    {
+      "id": "8b88",
+      "comercio": "Princesa",
+      "nomeProduto": "Arroz Solito",
+      "classeProduto": "Perecíveis",
+      "unidade": "5 kg",
+      "valor": 36.9,
+      "imgPatch": "http://localhost/img/arroz_solito_5kg.jpg"
+    },
+    {
+      "id": "e0d7",
+      "comercio": "Princesa",
+      "nomeProduto": "Feijão Veneza",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 6.99,
+      "imgPatch": "http://localhost/img/feijao-carioca-veneza.jpg"
+    },
+    {
+      "id": "1488",
+      "comercio": "Princesa",
+      "nomeProduto": "Macarrão Espaguete Dona Benta",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 3.99,
+      "imgPatch": "http://localhost/img/maca_d_benta.jpg"
+    },
+    {
+      "id": "2f08",
+      "comercio": "Princesa",
+      "nomeProduto": "Costela",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 24.9,
+      "imgPatch": "http://localhost/img/costela.jpg"
+    },
+    {
+      "id": "83be",
+      "comercio": "Princesa",
+      "nomeProduto": "Picanha",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 69.9,
+      "imgPatch": "http://localhost/img/picanha.jpg"
+    },
+    {
+      "id": "e245",
+      "comercio": "Princesa",
+      "nomeProduto": "Farinha de Trigo Rosa Branca",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 5.99,
+      "imgPatch": "http://localhost/img/far_trigo_rosa_branca.jpg"
+    },
+    {
+      "id": "df39",
+      "comercio": "Princesa",
+      "nomeProduto": "Café Pilão",
+      "classeProduto": "Perecíveis",
+      "unidade": "250 g",
+      "valor": 10.79,
+      "imgPatch": "http://localhost/img/cafe_pilao_250.jpg"
+    },
+    {
+      "id": "4a7b",
+      "comercio": "Princesa",
+      "nomeProduto": "Batata Frita Congelada BemBrasil",
+      "classeProduto": "Perecíveis",
+      "unidade": "2 kg",
+      "valor": 30.9,
+      "imgPatch": "http://localhost/img/b_frita_bem_brasil.jpg"
+    },
+    {
+      "id": "eb87",
+      "comercio": "Princesa",
+      "nomeProduto": "Coxinha da Asa",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 9.9,
+      "imgPatch": "http://localhost/img/cox_asa.jpg"
+    },
+    {
+      "id": "aa9a",
+      "comercio": "Princesa",
+      "nomeProduto": "Peito",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 15.9,
+      "imgPatch": "http://localhost/img/peito_f.jpg"
+    },
+    {
+      "id": "5fea",
+      "comercio": "Princesa",
+      "nomeProduto": "Salsicha Sadia",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 12.99,
+      "imgPatch": "http://localhost/img/salsicha sadia.png"
+    },
+    {
+      "id": "3a4f",
+      "comercio": "Princesa",
+      "nomeProduto": "Manteiga Galbani",
+      "classeProduto": "Perecíveis",
+      "unidade": "200 g",
+      "valor": 12.49,
+      "imgPatch": "http://localhost/img/mant_galbani.png"
+    },
+    {
+      "id": "411d",
+      "comercio": "Princesa",
+      "nomeProduto": "Mortadela Marba",
+      "classeProduto": "Perecíveis",
+      "unidade": "kg",
+      "valor": 18.9,
+      "imgPatch": "http://localhost/img/mort_marba.jpg"
+    },
+    {
+      "id": "b5f7",
+      "comercio": "Princesa",
+      "nomeProduto": "Absorvente Íntimus",
+      "classeProduto": "Saúde",
+      "unidade": "8 uni",
+      "valor": 5.49,
+      "imgPatch": "http://localhost/img/absorvente_intimus.jpg"
+    },
+    {
+      "id": "c7f8",
+      "comercio": "Princesa",
+      "nomeProduto": "Papel Higiênico Camélia",
+      "classeProduto": "Saúde",
+      "unidade": "c/ 4",
+      "valor": 5.99,
+      "imgPatch": "http://localhost/img/papel_h_camelia.jpg"
+    },
+    {
+      "id": "789e",
+      "comercio": "Princesa",
+      "nomeProduto": "Sabonete Lux",
+      "classeProduto": "Saúde",
+      "unidade": "85 g",
+      "valor": 2.99,
+      "imgPatch": "http://localhost/img/sab_lux.jpg"
+    },
+    {
+      "id": "d77d",
+      "comercio": "Princesa",
+      "nomeProduto": "Água Sanitária Sanol",
+      "classeProduto": "Limpeza",
+      "unidade": "2 litros",
+      "valor": 3.69,
+      "imgPatch": "http://localhost/img/Agua-sanit-sanol-2l.png"
+    },
+    {
+      "id": "face",
+      "comercio": "Princesa",
+      "nomeProduto": "Sabão em Pó Tixan",
+      "classeProduto": "Limpeza",
+      "unidade": "800 g",
+      "valor": 10.49,
+      "imgPatch": "http://localhost/img/sab_po_tixan.jpg"
+    },
+    {
+      "id": "29f7",
+      "comercio": "Princesa",
+      "nomeProduto": "Amaciante Ypê",
+      "classeProduto": "Limpeza",
+      "unidade": "2 litros",
+      "valor": 10.99,
+      "imgPatch": "http://localhost/img/ama_ype.jpg"
+    }
+  ]
+}
