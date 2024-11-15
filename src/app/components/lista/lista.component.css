@@ -5,3 +5,12 @@
     height: 10vh;
     width: 10vh;
 }
+.img-header {
+	background-image:url("/assets/img/qrcode-5511940811048.jpg");
+    background-size: 10vh;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 100%;
+    background-position: right;
+    text-align: center;
+}

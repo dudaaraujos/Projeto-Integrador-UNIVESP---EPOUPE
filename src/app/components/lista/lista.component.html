@@ -40,4 +40,13 @@
     </p-table>
     <br />
 <p-button label="Sair" (onClick)="sair()"></p-button>
+
+  <p-button (click)="showBasicDialog()" icon="pi pi-external-link" label="Contato"></p-button>
+  <p-dialog header="Atendimento Whatsapp" [(visible)]="displayBasic" [style]="{width: '18vw'}" [baseZIndex]="10000">
+      <p><img src="/assets/img/qrcode-5511940811048.jpg"/></p>
+      <p>Aponte a câmera do seu celular e aguarde atendimento.</p>
+      <ng-template pTemplate="footer">
+          <p-button icon="pi pi-check" (click)="displayBasic=false" label="Fechar" styleClass="p-button-text"></p-button>
+      </ng-template>
+  </p-dialog>
 </div>
